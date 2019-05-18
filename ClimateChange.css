@@ -1,0 +1,111 @@
+/*
+* Chloe Sylvester
+* 17 May 2019
+* Climate Change
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+} /* this universal selector sets the margin and padding to zero so that you can add your own margin and paddings */
+
+/* Body attributes here */
+
+body {
+    background-color: rgb(229,232,232);  
+    text-align: justify; 
+    width: 85%; margin: auto; 
+} /* this body attribute allows me to determine my webpages background color, how I want my text aligned and how far I want my width and margins */
+
+header {
+    font-size: 20px; 
+    text-align: center; 
+    border-bottom: 3px solid rgb(241,148,138);
+    padding: 10px; 
+} /* this provides how big I want my title to be, where it is aligned, the spacing between it and the bottom border and the color of the border */
+
+main {
+    border: 2px;
+    padding: 20px 60px 20px 20px;
+    margin: 20px; 
+} /* contains all the formatting for the images and the three paragraphs */
+
+h1,h3 {
+    margin: 5px; padding: 10px; 
+    color: rgb(46,134,193); 
+} /* provides the blue color of all the headings */
+
+h5 {
+    text-align: right; 
+    color: rgb(46,134,193);
+} /* provides the color and alignment for the "Reproduced" part */
+
+p {
+   margin-left: 20px; 
+} /* gives the paragraphs on the left side a margin */
+
+ul, li {
+    list-style-position: inside;
+} /* to fix the alignment of the bulleted list */
+
+footer {
+    border-top: 3px solid rgb(241,148,138);
+    font-size: 12px; 
+    margin-top: 20px; 
+    color: rgb(46,134,193); 
+} /* gives the footer a border on the top with a pinkish color and then provides space for the information in the footer */
+
+a:hover, a:focus {
+    font-size: 20px;
+    color: rgb(175,122,197); 
+} /* changes the font size and color of the links within the footer */
+
+a:visited {
+    color: rgb(99,57,116);
+} /* changes the color of the links that I have visited to a dark purple */
+
+
+#StopGW {
+    height: 150px; width: 200px; 
+    float: left; margin-right: 15px;  
+    border: 3px solid rgb(241,148,138);
+} /* characteristics of the image in the top left corner */
+
+#WarmingPredictions {
+    height: 200px; width: 150px; 
+    margin-top: 15px; margin-right: 10px;
+    border: 3px solid rgb(241,148,138); 
+} /* characteristics of the image of the global warming predictions around the world */
+
+#GWPercents {
+    height: 200px; width: 150px; 
+    margin-top: 15px; margin-right: 10px;
+    border: 3px solid rgb(241,148,138); 
+} /* gives the margins of the percentages pictures */
+
+#GWCandE {
+    height: 200px; width: 150px; 
+    margin-top: 15px; margin-right: 10px;
+    border: 3px solid rgb(241,148,138); 
+} /* the characterisitcs of the cause and effects picture */
+
+#EarthOnFire {
+    height: 200px; width: 150px; 
+    margin-top: 15px; margin-right: 10px;
+    border: 3px solid rgb(241,148,138); 
+} /* the characterisitcs of the image of a ring of fire around the earth */
+
+#ChangingSeasons {
+    height: 200px; width: 150px; 
+    margin-top: 15px; margin-right: 10px;
+    border: 3px solid rgb(241,148,138); 
+} /* the characterisitcs of the seasons picture */
+
+#PBStareAtIce {
+    float: right;
+    height: 100px; width: 150px; 
+    margin-left: 15px; 
+    border: 3px solid rgb(241,148,138); 
+} /* the last image near the bottom of the page showing a polar bear staring at the melting ice caps */
